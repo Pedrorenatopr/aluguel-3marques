@@ -32,7 +32,7 @@
     padding-top: 200px;
   }
 
-  .card-um-section-um h2 {
+  .card-um-section-um h1 {
     font-size: 50px;
     max-width: 400px;
     padding-top: 50px;
@@ -59,9 +59,56 @@
     font-size: 16px;
   }
 
-  .card-dois-section-um {
-    background-image: url(img-principal.png);
+  .box-section-dois {
+    background-color: #FC0;
+    display: grid;
+    justify-content: center;
   }
+
+  .titulo-section-dois {
+    text-align: center;
+    padding: 100px 0 100px 0;
+    font-size: 36px;
+  }
+
+  .destaque {
+    color: #FC0;
+  }
+
+ 
+  .section-dois {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    width: 1100px;
+    background-color: red;
+
+  }
+
+  .section-dois .card {
+    width: 300px;
+    border: double 2px transparent;
+    border-radius: 10px;
+    background-image: linear-gradient(109deg, rgba(0, 0, 0, 0.773), black), radial-gradient(circle at top left, #FFFFFF, #D3D3D31A);
+    backdrop-filter: blur(25px);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+
+  }
+
+  .section-dois .card .conteudo {
+    padding: 2em;
+  }
+
+  .section-dois .card .conteudo h4 {
+    padding: 20px 0 20px 0;
+
+
+  }
+
+  
+  
 
   @media (max-width: 1560px) {
 
@@ -78,7 +125,7 @@
       padding-top: 100px;   
     }
 
-    .card-um-section-um h2 {
+    .card-um-section-um h1 {
       font-size: 40px;
     }
 
@@ -97,7 +144,7 @@
       padding-top: 100px;   
     }
 
-    .card-um-section-um h2 {
+    .card-um-section-um h1 {
       font-size: 35px;
       padding-top: 30px;
     }
@@ -138,7 +185,7 @@
       padding-right: 20px;
     }
 
-    .card-um-section-um h2 {
+    .card-um-section-um h1 {
       font-size: 35px;
       padding-top: 30px;
       width: 100%;
