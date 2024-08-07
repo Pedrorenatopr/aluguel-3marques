@@ -142,6 +142,7 @@
   }
 
 
+
   @media (max-width: 1600px) {
     body {
       padding-top: 100px;
@@ -151,6 +152,9 @@
   
 
   @media (max-width: 1560px) {
+    .box-section-dois {
+      padding-top: 100px;
+    }
 
 
   }
@@ -179,6 +183,8 @@
       font-size: 15px;
       padding-bottom: 35px;
     }
+
+
 
   }
 
