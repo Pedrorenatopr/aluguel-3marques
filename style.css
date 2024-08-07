@@ -158,14 +158,41 @@
     width: 450px;
     height: 612px;
     background: #232323;
+    padding: 100px 50px 50px 50px;
+  }
+
+  .card-gps .conteudo-um h2 {
+    font-size: 50px;
+    padding-bottom: 10px;
+  }
+
+  .card-gps .conteudo-um .sub-titulo {
+    font-size: 30px;
+  }
+
+  .card-gps .conteudo-um .legenda {
+    line-height: 30px;
+    width: 282.23px;
+    font-size: 20px;
+    padding: 50px 0;
+  }
+
+  .bt-gps {
+    border-radius: 5px;
+    background: #FC0;
+    width: 223px;
+    height: 38px;
+    flex-shrink: 0;
+  }
+
+  .bt-gps a {
+    color: black;
   }
 
   .card-gps .conteudo-dois {
     margin-top: 100px;
   }
 
-  .card-gps .conteudo-dois img {
-  }
 
   .box-center {
     display: grid;
@@ -177,11 +204,28 @@
     .card-gps .conteudo-dois img {
       height: 500px;
     }
+
+    .card-gps .conteudo-um {
+      width: 400px;
+      height: 500px;
+      padding: 70px 50px 50px 50px;
+    }
+
+    .card-gps .conteudo-um .legenda {
+      line-height: 30px;
+      width: 282.23px;
+      font-size: 16px;
+      padding: 50px 0;
+    }
   }
 
+
   @media (max-width: 1680px) {
+    .card-gps .conteudo-dois {
+      margin-top: 50px;
+    }
     .card-gps .conteudo-dois img {
-      height: 400px;
+      height: 500px;
     }
   }
 
@@ -189,6 +233,27 @@
   @media (max-width: 1600px) {
     body {
       padding-top: 100px;
+    }
+
+    .card-gps .conteudo-um {
+      width: 400px;
+      height: 450px;
+      padding: 60px 50px 50px 50px;
+    }
+
+    .card-gps .conteudo-um .legenda {
+      line-height: 30px;
+      width: 282.23px;
+      font-size: 16px;
+      padding: 40px 0;
+
+    }
+
+    .card-gps .conteudo-dois {
+      margin-top: 50px;
+    }
+    .card-gps .conteudo-dois img {
+      height: 450px;
     }
   }
 
@@ -212,16 +277,42 @@
       font-size: 16px;
     }
 
+    .card-gps .conteudo-um {
+      width: 370px;
+      height: 450px;
+      padding: 60px 50px 50px 50px;
+    }
+
+    .card-gps .conteudo-dois {
+      margin-top: 20px;
+    }
+
     .card-gps .conteudo-dois img {
-      height: 350px;
+      height: 420px;
     }
   
 
   }
 
   @media (max-width: 1300px) {
+    .card-gps .conteudo-um {
+      width: 350px;
+      height: 430px;
+      padding: 60px 50px 50px 50px;
+    }
+
+    .card-gps .conteudo-um h2 {
+      font-size: 40px;
+    }
+
+    .card-gps .conteudo-um .legenda {
+      padding: 20px 0;
+      font-size: 14px;
+      width: 230px;
+    }
+
     .card-gps .conteudo-dois img {
-      height: 300px;
+      height: 370px;
     }
 
 
@@ -240,8 +331,14 @@
       padding-bottom: 35px;
     }
 
+    .card-gps .conteudo-um {
+      width: 300px;
+      height: 400px;
+      padding: 40px 50px 50px 30px;
+    }
+
     .card-gps .conteudo-dois img {
-      height: 270px;
+      height: 350px;
     }
 
 
@@ -294,11 +391,18 @@
     }
 
     .card-gps .conteudo-dois {
-      margin-top: 50px;
+      margin-top: 20px;
+    }
+
+    .card-gps .conteudo-um {
+      width: 300px;
+      height: 400px;
+      margin-top: -50px;
+      padding: 40px 50px 50px 30px;
     }
 
     .card-gps .conteudo-dois img {
-      height: 240px;
+      height: 320px;
     }
 
 
