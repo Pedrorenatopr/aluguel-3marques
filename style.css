@@ -30,13 +30,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
   }
 
-  .card-um-section-um {
-    padding-left: 0px;
-
-  }
 
   .card-um-section-um h1 {
     font-size: 50px;
@@ -67,6 +62,8 @@
 
   .box-section-dois {
     padding-top: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
     display: grid;
     justify-content: center;
   }
@@ -139,6 +136,8 @@
   .box-section-tres {
     display: grid;
     justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
 
@@ -183,6 +182,30 @@
       font-size: 15px;
       padding-bottom: 35px;
     }
+
+
+
+  }
+
+  @media (max-width: 1120px) {
+    .card-um-section-um {
+      padding: 0 20px 0 20px;
+    }
+
+    .section-dois .card {
+      width: 330px;
+    }
+
+    .section-tres .card {
+      width: 505px;
+    }
+
+    .center {
+      width: 100%;
+    }
+
+
+
 
 
 
@@ -281,16 +304,11 @@
       background-size: 100%;
       height: 700px;
       width: 100%;
-      padding-top: 0;
-      padding-left: 0;
       padding-top: 100px;
-      padding-left: 20px;
-      padding-right: 20px;
     }
 
     .section-dois {
       background-color: rgba(0, 0, 0, 0.773);
-      padding: 0 20px 0 20px;
     }
 
     .section-dois .card {
@@ -299,7 +317,7 @@
 
     .titulo-section-dois {
       text-align: left;
-      padding: 50px 20px 50px 20px;
+      padding: 50px 0px 50px 0px;
       font-size: 30px;
     }
 
