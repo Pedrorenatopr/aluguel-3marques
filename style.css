@@ -13,8 +13,6 @@
 
   body {
     background-color: black;
-    display: flex;
-    justify-content: center;
     background-image: url(img-principal.png);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -140,6 +138,52 @@
     padding-right: 20px;
   }
 
+  .section-gps {
+    background-image: url(fundo-teste.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    height: 900px;
+  }
+
+  .card-gps {
+    display: flex;
+    justify-content: center;
+    gap: 230px;
+    padding-top: 100px;
+  }
+
+  .card-gps .conteudo-um {
+    width: 450px;
+    height: 612px;
+    background: #232323;
+  }
+
+  .card-gps .conteudo-dois {
+    margin-top: 100px;
+  }
+
+  .card-gps .conteudo-dois img {
+  }
+
+  .box-center {
+    display: grid;
+    justify-content: center;
+  }
+
+
+  @media (max-width: 1820px) {
+    .card-gps .conteudo-dois img {
+      height: 500px;
+    }
+  }
+
+  @media (max-width: 1680px) {
+    .card-gps .conteudo-dois img {
+      height: 400px;
+    }
+  }
 
 
   @media (max-width: 1600px) {
@@ -167,7 +211,20 @@
       line-height: 28px;
       font-size: 16px;
     }
+
+    .card-gps .conteudo-dois img {
+      height: 350px;
+    }
   
+
+  }
+
+  @media (max-width: 1300px) {
+    .card-gps .conteudo-dois img {
+      height: 300px;
+    }
+
+
 
   }
 
@@ -181,6 +238,10 @@
       line-height: 26px;
       font-size: 15px;
       padding-bottom: 35px;
+    }
+
+    .card-gps .conteudo-dois img {
+      height: 270px;
     }
 
 
@@ -230,6 +291,14 @@
 
     .section-tres .card {
       width: 460px;
+    }
+
+    .card-gps .conteudo-dois {
+      margin-top: 50px;
+    }
+
+    .card-gps .conteudo-dois img {
+      height: 240px;
     }
 
 
