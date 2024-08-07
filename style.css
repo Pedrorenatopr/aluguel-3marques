@@ -13,6 +13,17 @@
 
   body {
     background-color: black;
+    display: flex;
+    justify-content: center;
+    background-image: url(img-principal.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    padding-top: 200px;
+  }
+
+  .center {
+    max-width: 1100px;
   }
 
   .section-um {
@@ -23,13 +34,8 @@
   }
 
   .card-um-section-um {
-    padding-left: 400px;
-    background-image: url(img-principal.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 900px;
-    width: 100%;
-    padding-top: 200px;
+    padding-left: 0px;
+
   }
 
   .card-um-section-um h1 {
@@ -60,6 +66,7 @@
   }
 
   .box-section-dois {
+    padding-top: 200px;
     display: grid;
     justify-content: center;
   }
@@ -136,11 +143,8 @@
 
 
   @media (max-width: 1600px) {
-
-    .card-um-section-um {
-      padding-left: 100px;
+    body {
       padding-top: 100px;
-      height: 700px;   
     }
   }
 
@@ -148,21 +152,10 @@
 
   @media (max-width: 1560px) {
 
-    .card-um-section-um {
-      padding-left: 50px;
-      padding-top: 100px;
-      height: 700px;   
-    }
+
   }
 
   @media (max-width: 1400px) {
-
-    .card-um-section-um {
-      padding-left: 120px;
-      padding-top: 100px;
-      height: 600px;   
-    }
-
     .card-um-section-um h1 {
       font-size: 40px;
     }
@@ -176,12 +169,6 @@
   }
 
   @media (max-width: 1200px) {
-
-    .card-um-section-um {
-      padding-left: 50px;
-      padding-top: 100px;   
-    }
-
     .card-um-section-um h1 {
       font-size: 35px;
       padding-top: 30px;
@@ -196,12 +183,16 @@
   }
 
   @media (max-width: 1100px) {
+    .center {
+      max-width: 100%;
+    }
 
-    .card-um-section-um {
-      padding-left: 50px;
-      padding-top: 100px;
-      height: 500px;
-   
+    .section-dois {
+      width: 100%;
+    }
+
+    .section-tres {
+      width: 1000px;
     }
 
     .section-dois .card {
@@ -212,9 +203,15 @@
       width: 460px;
     }
 
+
   }
 
   @media (max-width: 1000px) {
+
+    body {
+      background-image: none;
+      padding-top: 0;
+    }
 
     .logo {
       width: 100px;
