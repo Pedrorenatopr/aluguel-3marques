@@ -467,31 +467,32 @@
     }
 
     .section-gps {
-      background-image: url(fundo-teste.png);
+      background-image: url(fundo-amarelo-mobile.png);
       background-repeat: no-repeat;
       background-size: 100%;
-      margin-top: 200px;
+      margin-top: 100px;
       margin-bottom: 200px;
-      height: 900px;
+      height: 800px;
     }
   
     .card-gps {
       display: grid;
+      flex-wrap: wrap-reverse;
       justify-content: center;
       gap: 10px;
-      padding-top: 100px;
-      padding: 0 20px 0 20px;
+      padding-top: 0px;
+      padding: 150px 20px 0 20px;
     }
   
     .card-gps .conteudo-um {
       width: 100%;
-      height: 580px;
+      height: 500px;
       background: #232323;
-      padding: 50px;
+      padding: 70px 30px 0px 40px;
     }
   
     .card-gps .conteudo-um h2 {
-      font-size: 50px;
+      font-size: 40px;
       padding-bottom: 10px;
     }
   
@@ -502,8 +503,8 @@
     .card-gps .conteudo-um .legenda {
       line-height: 30px;
       width: 100%;
-      font-size: 20px;
-      padding: 50px 0;
+      font-size: 16px;
+      padding: 40px 0;
     }
   
     .bt-gps {
@@ -519,7 +520,12 @@
     }
   
     .card-gps .conteudo-dois {
-      margin-top: 100px;
+      margin-top: 0px;
+    }
+
+    .card-gps .conteudo-dois img {
+      width: 100%;
+      display: none;
     }
   
 
@@ -555,5 +561,25 @@
 
 
 
+
+
+  }
+
+  @media (max-width: 370px) {
+    .card-gps {
+      padding: 100px 20px 0 20px;
+    }
+    
+  }
+
+  @media (max-width: 350px) {
+    .card-gps .conteudo-um {
+      width: 100%;
+      height: 500px;
+      background: #232323;
+      padding: 50px 30px 20px 40px;
+    }
+
+    
   }
 
