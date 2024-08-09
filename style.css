@@ -199,6 +199,67 @@
     justify-content: center;
   }
 
+  .box-aluguel {
+    display: grid;
+    justify-content: center;
+  }
+
+  .section-aluguel {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    max-width: 1100px;
+  }
+
+  .section-aluguel .card {
+    min-width: 100px;
+    max-width: 350px;
+    border: double 2px transparent;
+    border-radius: 10px;
+    background-image: linear-gradient(109deg, rgba(0, 0, 0, 0.773), black), radial-gradient(circle at top left, #FFFFFF, #D3D3D31A);
+    backdrop-filter: blur(25px);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    overflow: hidden;
+    margin-top: 10px;
+  }
+
+  .section-aluguel .card .conteudo img {
+    width: 350px;
+  }
+
+
+  .section-aluguel .card .conteudo {
+    padding: 0;
+  }
+
+  .section-aluguel .card .conteudo h4 {
+    padding: 30px 30px 30px 30px;
+  }
+
+  .section-aluguel .card .conteudo p {
+    color: rgb(200, 204, 207);
+    font-size: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    line-height: 18px;
+  }
+
+  .bt-card-aluguel {
+    background-color: #FC0;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+
+  }
+
+  .bt-card-aluguel a {
+    color: black;
+  }
+
 
   @media (max-width: 1820px) {
     .card-gps .conteudo-dois img {
@@ -559,10 +620,180 @@
       font-size: 30px;
     }
 
+    .box-aluguel {
+      display: grid;
+      justify-content: center;
+    }
+  
+    .section-aluguel {
+      gap: 15px;
+    }
+
+    .section-aluguel .card {
+      min-width: 100px;
+      max-width: 230px;
+      margin-top: 20px;
+    }
+
+
+  .section-aluguel .card .conteudo img {
+    width: 350px;
+  }
+
+
+  .section-aluguel .card .conteudo h4 {
+    padding: 20px;
+  }
+
+  .section-aluguel .card .conteudo p {
+    font-size: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+  }
+
+  .bt-card-aluguel {
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+  }
 
 
 
 
+
+  }
+
+  @media (max-width: 750px) {
+
+    .section-aluguel .card {
+      min-width: 100px;
+      max-width: 300px;
+      margin-top: 20px;
+    }
+
+
+  .section-aluguel .card .conteudo img {
+    width: 350px;
+  }
+
+
+    
+  }
+
+  @media (max-width: 650px) {
+    .section-aluguel .card {
+      min-width: 100px;
+      max-width: 280px;
+      margin-top: 20px;
+    }
+
+    
+  }
+
+  @media (max-width: 590px) {
+    .section-aluguel .card {
+      min-width: 100px;
+      max-width: 250px;
+      margin-top: 20px;
+    }
+    
+  }
+
+  @media (max-width: 530px) {
+    .section-aluguel .card {
+      min-width: 100px;
+      max-width: 200px;
+      margin-top: 20px;
+    }
+
+    .box-aluguel {
+      display: grid;
+      justify-content: center;
+    }
+  
+    .section-aluguel {
+      gap: 10px;
+    }
+
+    .section-aluguel .card {
+      min-width: 100px;
+      max-width: 200px;
+      margin-top: 20px;
+    }
+
+
+  .section-aluguel .card .conteudo img {
+    width: 200px;
+  }
+
+
+  .section-aluguel .card .conteudo h4 {
+    padding: 10px;
+  }
+
+  .section-aluguel .card .conteudo p {
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+  }
+
+  .bt-card-aluguel {
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 10px;
+  }
+    
+  }
+
+  @media (max-width: 415px) {
+    .section-aluguel .card {
+      min-width: 100px;
+      max-width: 190px;
+      margin-top: 20px;
+    }
+
+    
+  }
+
+  @media (max-width: 390px) {
+    .section-aluguel .card {
+      min-width: 100px;
+      max-width: 180px;
+      margin-top: 20px;
+    }
+
+    
+  }
+
+  @media (max-width: 375px) {
+    .section-aluguel .card {
+      min-width: 100px;
+      max-width: 170px;
+      margin-top: 20px;
+    }
+
+    .bt-card-aluguel {
+      font-size: 9px;
+    }
+    
+  }
+
+  @media (max-width: 350px) {
+    .section-aluguel .card {
+      min-width: 100px;
+      max-width: 160px;
+      margin-top: 20px;
+    }
+
+    .bt-card-aluguel {
+      font-size: 8px;
+    }
+    
   }
 
   @media (max-width: 370px) {
