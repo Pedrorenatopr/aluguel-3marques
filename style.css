@@ -216,6 +216,12 @@
     justify-content: center;
   }
 
+  .titulo-aluguel {
+    text-align: center;
+    font-size: 36px;
+    padding-bottom: 70px;
+  }
+
   .section-aluguel {
     display: flex;
     justify-content: center;
@@ -300,6 +306,10 @@
     .card-gps .conteudo-dois img {
       height: 500px;
     }
+
+    .section-gps {
+      height: 800px;
+    }
   }
 
 
@@ -328,6 +338,10 @@
     .card-gps .conteudo-dois img {
       height: 450px;
     }
+
+    .section-gps {
+      height: 700px;
+    }
   }
 
   
@@ -335,6 +349,10 @@
   @media (max-width: 1560px) {
     .box-section-dois {
       padding-top: 100px;
+    }
+
+    .section-gps {
+      height: 650px;
     }
 
 
@@ -363,6 +381,10 @@
     .card-gps .conteudo-dois img {
       height: 420px;
     }
+
+    .section-gps {
+      height: 620px;
+    }
   
 
   }
@@ -386,6 +408,10 @@
 
     .card-gps .conteudo-dois img {
       height: 370px;
+    }
+
+    .section-gps {
+      height: 570px;
     }
 
 
@@ -412,6 +438,10 @@
 
     .card-gps .conteudo-dois img {
       height: 350px;
+    }
+
+    .section-gps {
+      height: 550px;
     }
 
 
@@ -545,7 +575,7 @@
       background-size: 100%;
       margin-top: 100px;
       margin-bottom: 200px;
-      height: 800px;
+      height: 700px;
     }
   
     .card-gps {
@@ -710,6 +740,11 @@
       max-width: 250px;
       margin-top: 20px;
     }
+
+    .section-gps {
+      height: 750px;
+      margin-bottom: 100px;
+    }
     
   }
 
@@ -759,6 +794,13 @@
     margin-bottom: 10px;
     font-size: 10px;
   }
+
+  .titulo-aluguel {
+    text-align: left;
+    padding-left: 10px;
+    font-size: 30px;
+    padding-bottom: 50px;
+  }
     
   }
 
@@ -779,6 +821,10 @@
       margin-top: 20px;
     }
 
+    .section-gps {
+      height: 700px;
+    }
+
     
   }
 
@@ -792,6 +838,10 @@
     .bt-card-aluguel {
       font-size: 9px;
     }
+
+    .section-gps {
+      height: 650px;
+    }
     
   }
 
@@ -804,6 +854,10 @@
 
     .bt-card-aluguel {
       font-size: 8px;
+    }
+
+    .section-gps {
+      height: 600px;
     }
     
   }
