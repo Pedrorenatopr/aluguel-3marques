@@ -103,6 +103,12 @@
     padding: 20px 0 20px 0;
   }
 
+  .section-dois .card .conteudo p {
+    color: white;
+    line-height: 24px;
+    opacity: 0.5;
+  }
+
   .section-tres .card {
     width: 537px;
     border: double 2px transparent;
@@ -129,6 +135,12 @@
 
   .section-tres .card .conteudo h4 {
     padding: 20px 0 20px 0;
+  }
+
+  .section-tres .card .conteudo p {
+    color: white;
+    line-height: 24px;
+    opacity: 0.5;
   }
 
   .box-section-tres {
