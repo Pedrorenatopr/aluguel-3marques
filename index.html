@@ -198,6 +198,111 @@
     </section>
 
    </section>
+
+   <div id="conteudo">
+    <section class="box-aluguel">
+        <section class="section-aluguel">
+            <div class="card">
+                <div class="conteudo">
+                    <img  src="mini-carregadeira.png" alt="">
+                    <h4>Escavadeira</h4>
+                    <p>
+                        É usada para escavar e remover grandes quantidades de terra, sendo mais versátil em escavações profundas e demolições.
+                    </p>
+                    <button class="bt-card-aluguel">
+                        <a href="">SOLICITE UM ORÇAMENTO</a>
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="conteudo">
+                    <img src="valetadeira.png" alt="">
+                    <h4>Valetadeira</h4>
+                    <p>
+                        É usada para escavar e remover grandes quantidades de terra, sendo mais versátil em escavações profundas e demolições.
+                    </p>
+                    <button class="bt-card-aluguel">
+                        <a href="">SOLICITE UM ORÇAMENTO</a>
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="conteudo">
+                    <img src="Perfuratriz.png" alt="">
+                    <h4>Perfuratriz</h4>
+                    <p>
+                        É usada para escavar e remover grandes quantidades de terra, sendo mais versátil em escavações profundas e demolições.
+                    </p>
+                    <button class="bt-card-aluguel">
+                        <a href="">SOLICITE UM ORÇAMENTO</a>
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="conteudo">
+                    <img src="pa-carregadeira.png" alt="">
+                    <h4>Pá Carregadeira</h4>
+                    <p>
+                        É usada para escavar e remover grandes quantidades de terra, sendo mais versátil em escavações profundas e demolições.
+                    </p>
+                    <button class="bt-card-aluguel">
+                        <a href="">SOLICITE UM ORÇAMENTO</a>
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="conteudo">
+                    <img src="caminhao-basculante.png" alt="">
+                    <h4>Caminhão basculante</h4>
+                    <p>
+                        É usada para escavar e remover grandes quantidades de terra, sendo mais versátil em escavações profundas e demolições.
+                    </p>
+                    <button class="bt-card-aluguel">
+                        <a href="">SOLICITE UM ORÇAMENTO</a>
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="conteudo">
+                    <img src="mini-carregadeira.png" alt="">
+                    <h4>Mini carregadeira</h4>
+                    <p>
+                        É usada para escavar e remover grandes quantidades de terra, sendo mais versátil em escavações profundas e demolições.
+                    </p>
+                    <button class="bt-card-aluguel">
+                        <a href="">SOLICITE UM ORÇAMENTO</a>
+                    </button>
+                </div>
+            </div>
+        </section>
+    
+       </section>
+    
+</div>
+
+<div class="box-bt-ver-mais">
+    <button id="verMais">VER MAIS PRODUTOS</button>
+    <button id="verMenos">VER MENOS PRODUTOS</button>
+</div>
+
+<script>
+    const verMaisBtn = document.getElementById("verMais");
+    const verMenosBtn = document.getElementById("verMenos");
+    const conteudo = document.getElementById("conteudo");
+
+    verMaisBtn.addEventListener("click", () => {
+        conteudo.style.display = "block";
+        verMaisBtn.style.display = "none";
+        verMenosBtn.style.display = "inline-block";
+    });
+
+    verMenosBtn.addEventListener("click", () => {
+        conteudo.style.display = "none";
+        verMaisBtn.style.display = "inline-block";
+        verMenosBtn.style.display = "none";
+    });
+</script>
+
     
 </body>
 </html>
