@@ -475,6 +475,67 @@
       line-height: 1.5;
       color: #12141D;
     }
+
+    .div-duvidas {
+      padding-top: 100px;
+      padding-bottom: 100px;
+    }
+  
+    summary {
+      cursor: pointer;
+      color: #1C1C1C;
+  }
+  
+  summary p {
+      color: white;
+  }
+  
+  
+  details {
+      background-color: #1C1C1C;
+      border-radius: 5px;
+      width: 1100px;
+  }
+  
+  details li {
+      color: #AFB3CA;
+  }
+  
+  details ul {
+      background-color: #1C1C1C;
+      padding-left: 10px;
+      padding-bottom: 10px;
+      border-radius: 5px;
+  }
+  
+  .titulo-duvidas {
+    font-size: 44px;
+    font-weight: 600;
+    padding-left: 10px;
+    padding-bottom: 80px;
+    text-align: center;
+    color: white;
+  }
+  
+  .card-duvidas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  .duvidas {
+      display: grid;
+      gap: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
+      justify-content: center;
+  }
+  
   
 
 
@@ -709,6 +770,11 @@
       height: 320px;
     }
 
+    details {
+      border-radius: 5px;
+      width: 900px;
+    }
+
 
   }
 
@@ -933,6 +999,32 @@
         background: #FDFDFD;  
         padding: 28px 30px;
     }
+
+    .div-duvidas {
+      padding-top: 0px;
+      padding-bottom: 100px;
+    }
+  
+    details {
+      border-radius: 5px;
+      width: 100%;
+    }
+  
+    .card-duvidas {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 10px;
+      padding-bottom: 20px;
+      margin-top: 0;
+      padding-left: 10px;
+      padding-right: 10px;
+      margin-top: 10px;
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+
+
   
 
     
@@ -1047,6 +1139,13 @@
     .section-gps {
       height: 750px;
       margin-bottom: 100px;
+    }
+
+    .titulo-duvidas {
+      text-align: left;
+      padding-left: 20px;
+      width: 100%;
+      font-size: 36px;
     }
     
   }
